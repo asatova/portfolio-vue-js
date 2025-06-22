@@ -20,7 +20,7 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
-            overflow-x: hidden;
+            overflow-y: hidden;
         }
 
         /* Header */
@@ -106,6 +106,7 @@
         .hero-content {
             position: relative;
             z-index: 1;
+            height: 400px;
         }
 
         .hero h1 {
@@ -498,6 +499,6 @@
         margin: 0px;
         }
         header{
-            width: 80%;
+            width: 100%;
         }   
 }
