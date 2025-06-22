@@ -1,7 +1,7 @@
 <template>
   <!-- Header -->
   <header>
-    <nav class="container">
+    <nav class="container-nav">
       <div class="logo">
         <a href="#home">
           <img class="logo" src="/logo.png" alt="Logo" />
@@ -24,7 +24,7 @@
   <section id="home" class="hero gradient-bg">
     <div class="container">
       <div class="hero-content" data-aos="fade-up">
-        <h1>Professional Vue.js Solutions for Your Business</h1>
+        <h1> I create websites that work for your business.</h1>
         <p>Custom websites, smart plugins, and solid project designs — all tailored to your goals.</p>
         <a href="#services" class="contact-btn" style="font-size: 1.1rem; padding: 1rem 2rem;">
           Explore Services

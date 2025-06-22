@@ -20,6 +20,7 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
+            overflow-x: hidden;
         }
 
         /* Header */
@@ -483,5 +484,20 @@
 }
 .footer-icon:hover{
     color: rgb(218, 218, 218);
-    
+  }
+
+.container-nav{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+     .container-nav{
+        max-width: 360px;
+        margin: 0px;
+        }
+        header{
+            width: 80%;
+        }   
 }
